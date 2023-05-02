@@ -5,10 +5,42 @@
     <title>金鱗化龍</title>
 </head>
 <body>
-   <p>Well Come To My Site</p>
+    <div class="rounded">
+        <p>Hello there! welcome to my site. This page is optimized for 1920*1080FHD.</p>
+    </div>
+    <div class="Circle"><a href="#TOP"><img src="img/face2023.png" alt="顔写真" class="face_img"></a></div>
     <style>
-        background-image:url(img/bg.png);
-        background-size:cover;
+    body{
+        background-color: rgb(63,169,245);
+        /*background-image: url(img/bg.png);*/
+        background-size: cover;
+    }
+        .rounded{
+            width: 83.3%;
+            height: 900px;
+            max-width: 1600px;
+            max-height: 900px;
+            margin: 25px; 
+            border: 5px solid #efefef;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .face_img{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            box-sizing: border-box;
+            border: 5px solid #efefef;
+            position: absolute;
+            /*top: calc(250px - 100px);
+            left: calc(50% - 100px);*/
+            position: fixed;
+            margin: auto;
+            bottom: 50px;
+            right: 50px;
+
+        }
+
     </style>
 </body>
 </html>
