@@ -6,7 +6,68 @@
 </head>
 <body>
     <div class="rounded">
-        <p>Hello there! welcome to my site. This page is optimized for 1920*1080FHD.</p>
+        <!--<p>Hello there! welcome to my site. This page is optimized for 1920*1080FHD.</p>-->
+        <p>ようこそ！このページは1920*1080FHDに最適化されています。</p>
+        <table>
+            <tr>
+                <th>時期</th><th>実績</th><th>備考</th>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/janken1/">JavaScriptゲーム</a></td>
+                <td>じゃんけんゲームを基に魔改造</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/cheese/">レスポンシブサイト</a></td>
+                <td>実力を最大限に発揮しました</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://kitakyusyuchisan.com/">WordPressサイト</a></td>
+                <td>現在進行中の実務案件、レビュー予定</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/img/jisseki02.png">YouTubeサムネイル</a></td>
+                <td>単発型の実務案件です</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/portfolio2.html">新ポートフォリオ</a></td>
+                <td>営業活動用の予定でした</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/img/meishi.png">オリジナル名刺</a></td>
+                <td>デザインのリハビリ用です</td>
+            </tr>
+            <tr>
+                <td>2023年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/responsive/">レスポンシブサイト</a></td>
+                <td>コーディングのリハビリ用です</td>
+            </tr>
+            <tr>
+                <td>2019年</td>
+                <td><a href="https://kiyotake.design/">WordPressサイト</a></td>
+                <td>年間継続型の実務案件でした</td>
+            </tr>
+            <tr>
+                <td>2018年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/portfolio1.html">旧ポートフォリオ</a></td>
+                <td>フリーランスとして活動開始</td>
+            </tr>
+            <tr>
+                <td>2017年</td>
+                <td><a href="https://infocollect.net/">WordPressサイト</a></td>
+                <td>サーバー運用とWordPress実習）</td>
+            </tr>
+            <tr>
+                <td>2007年</td>
+                <td><a href="https://if-future-tech.github.io/kinryu/img/occma.png">Web2.0（重点PHPフォーム）</a></td>
+                <td>初の実務案件※閉鎖※アクセス不可</td>
+            </tr>
+        </table>
     </div>
     <div class="Circle"><a href="#TOP"><img src="img/face2023.png" alt="顔写真" class="face_img"></a></div>
     <style>
@@ -15,6 +76,7 @@
         /*background-image: url(img/bg.png);*/
         background-size: cover;
     }
+
         .rounded{
             width: 83.3%;
             height: 900px;
@@ -25,6 +87,7 @@
             border-radius: 5px;
             padding: 5px;
         }
+
         .face_img{
             width: 200px;
             height: 200px;
@@ -38,7 +101,75 @@
             margin: auto;
             bottom: 50px;
             right: 50px;
+        }
 
+        table {
+            width: auto;
+            border-spacing: 0;
+            font-size:14px;
+        }
+
+        table th {
+            color: #fff;
+            padding: 8px 15px;
+            background: #258;
+            background:-moz-linear-gradient(rgba(34,85,136,0.7), rgba(34,85,136,0.9) 50%);
+            background:-webkit-gradient(linear, 100% 0%, 100% 50%, from(rgba(34,85,136,0.7)), to(rgba(34,85,136,0.9)));
+            font-weight: bold;
+            border-left:1px solid #258;
+            border-top:1px solid #258;
+            border-bottom:1px solid #258;
+            line-height: 120%;
+            text-align: center;
+            text-shadow:0 -1px 0 rgba(34,85,136,0.9);
+            box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+        }
+
+        table th:first-child {
+            border-radius: 5px 0 0 0;
+        }
+
+        table th:last-child {
+            border-radius:0 5px 0 0;
+            border-right:1px solid #258;
+            box-shadow: 2px 2px 1px rgba(0,0,0,0.1),0px 1px 1px rgba(255,255,255,0.3) inset;
+        }
+
+        table tr td {
+            padding: 8px 15px;
+            border-bottom: 1px solid #84b2e0;
+            border-left: 1px solid #84b2e0;
+            text-align: justify-all;
+        }
+
+        table tr td:last-child {
+            border-right: 1px solid #84b2e0;
+            box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+        }
+
+        table tr {
+            background: #fff;
+        }
+
+        table tr:nth-child(2n+1) {
+            background: #f1f6fc;
+        }
+
+        table tr:last-child td {
+            box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+        }
+
+        table tr:last-child td:first-child {
+            border-radius: 0 0 0 5px;
+        }
+
+        table tr:last-child td:last-child {
+            border-radius: 0 0 5px 0;
+        }
+
+        table tr:hover {
+            background: #bbd4ee;
+            cursor:pointer;
         }
 
     </style>
